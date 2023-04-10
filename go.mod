@@ -1,21 +1,24 @@
 module github.com/google/go-github/v42
 
 require (
-	github.com/bradleyfalzon/ghinstallation/v2 v2.0.4
-	github.com/google/go-cmp v0.5.6
+	github.com/bradleyfalzon/ghinstallation/v2 v2.3.0
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-querystring v1.1.0
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
-	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
+	golang.org/x/crypto v0.7.0
+	golang.org/x/oauth2 v0.6.0
 	google.golang.org/appengine v1.6.7
 )
 
 require (
-	github.com/golang-jwt/jwt/v4 v4.0.0 // indirect
-	github.com/golang/protobuf v1.3.2 // indirect
-	github.com/google/go-github/v41 v41.0.0 // indirect
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
+	github.com/ProtonMail/go-crypto v0.0.0-20230217124315-7d5c6f04bbb8 // indirect
+	github.com/cloudflare/circl v1.1.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/go-github/v50 v50.2.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 )
 
 go 1.17
